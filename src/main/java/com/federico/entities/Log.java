@@ -18,7 +18,7 @@ import javax.persistence.TemporalType;
 public class Log {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	
 	@Column
